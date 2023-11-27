@@ -6,12 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./componente1.component.scss']
 })
 export class Componente1Component implements OnInit {
-  numero:any;
+  sub:string = "";
 
   constructor() { }
 
   ngOnInit(): void {
-    this.numero = 5
+    this.sub = "ciao comp1"
   }
 
 }

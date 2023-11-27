@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class Componente2Component implements OnInit {
 title: string=""
   ngOnInit(): void { 
-    this.title = "Secondo component"
+    this.title = "ciao comp2"
   }
 
 }
